@@ -18,3 +18,4 @@ start <- ymd('2007-02-01')
 end <- ymd('2007-02-02')
 data<-subset(housepower, Date %in% c(start, end))
 data$datetime<-data$Date+data$Time
+
